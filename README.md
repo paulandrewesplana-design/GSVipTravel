@@ -1,467 +1,115 @@
-[index.html](https://github.com/user-attachments/files/29818934/index.html)
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GS VIP Travel — Casino VIP Experiences & Luxury Cruises | Gene Stark</title>
-<meta name="description" content="Gene Stark, Independent Casino Representative for Caesars Entertainment and luxury cruise lines. Exclusive Casino VIP player experiences on land and at sea. Call 949-293-1661.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GS VIP Travel | Casino VIP Resorts & Luxury Cruises</title>
+<meta name="description" content="Personalized casino VIP resort stays and luxury cruise experiences arranged by Gene Stark, an independent gaming representative with more than 35 years of VIP service.">
+<meta name="theme-color" content="#07131f">
+<meta property="og:title" content="GS VIP Travel | Casino VIP Resorts & Luxury Cruises">
+<meta property="og:description" content="Personal casino resort and luxury cruise planning with Gene Stark.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/cruise-hero.svg">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<script>document.documentElement.classList.add('js');</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{
-  --ivory:#FBFAF7;
-  --white:#FFFFFF;
-  --ink:#1C2430;
-  --slate:#4A5568;
-  --navy:#12233A;
-  --gold:#A8862D;
-  --gold-light:#C9A94E;
-  --gold-wash:#F6F1E4;
-  --line:#E7E2D6;
-  --radius:18px;
-  --shadow:0 6px 24px rgba(18,35,58,.08);
-  --shadow-lift:0 14px 40px rgba(18,35,58,.14);
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  font-family:'Source Sans 3',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
-  font-size:19px;line-height:1.65;color:var(--ink);background:var(--ivory);
-  -webkit-font-smoothing:antialiased;
-}
-h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.18;color:var(--ink)}
-img{max-width:100%;display:block}
-a{color:var(--gold);text-decoration:none}
-.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+:root{--navy:#07131f;--navy2:#0d2235;--blue:#173b56;--gold:#cfae62;--gold2:#f1d997;--cream:#f8f5ee;--paper:#fffdf8;--ink:#152334;--muted:#667080;--line:#ded6c4;--white:#fff;--radius:22px;--shadow:0 25px 70px rgba(7,19,31,.16)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Manrope,sans-serif;color:var(--ink);background:var(--cream);line-height:1.65;-webkit-font-smoothing:antialiased}img{display:block;width:100%}a{text-decoration:none;color:inherit}button,input,textarea,select{font:inherit}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}.serif,h1,h2,h3{font-family:"Cormorant Garamond",serif;line-height:1.05}.eyebrow{display:flex;align-items:center;gap:12px;color:#8a6a25;font-size:.73rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}.eyebrow:before{content:"";width:38px;height:1px;background:var(--gold)}.dark-eyebrow{color:var(--gold2)}
+.topbar{background:#020a11;color:rgba(255,255,255,.68);font-size:.78rem}.topbar .wrap{display:flex;justify-content:space-between;gap:20px;padding:8px 0}.topbar a{color:var(--gold2)}
+.nav{position:sticky;top:0;z-index:50;background:rgba(7,19,31,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(207,174,98,.2)}.navin{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.logo{display:flex;align-items:center;gap:13px;color:white}.logo-mark{width:45px;height:45px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;font:700 1.35rem "Cormorant Garamond";color:var(--gold2);box-shadow:inset 0 0 0 5px rgba(207,174,98,.06)}.logo-copy strong{display:block;letter-spacing:.16em;font-size:.87rem}.logo-copy span{font-size:.68rem;color:rgba(255,255,255,.56);letter-spacing:.11em;text-transform:uppercase}.links{display:flex;align-items:center;gap:26px}.links>a:not(.btn){color:rgba(255,255,255,.76);font-size:.84rem}.links>a:hover{color:var(--gold2)}.btn{min-height:46px;padding:0 20px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;font-weight:700;font-size:.85rem;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px)}.gold{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#241a08;box-shadow:0 12px 28px rgba(207,174,98,.23)}.ghost{border-color:rgba(255,255,255,.33);color:white;background:rgba(255,255,255,.04)}.outline{border-color:#9a772f;color:#7b5b18;background:transparent}.menu{display:none;background:transparent;border:1px solid rgba(207,174,98,.4);color:var(--gold2);border-radius:10px;padding:9px 12px}
+.hero{min-height:760px;color:white;position:relative;display:grid;align-items:center;overflow:hidden;background:linear-gradient(90deg,rgba(4,13,22,.97) 0%,rgba(4,13,22,.88) 42%,rgba(4,13,22,.38) 70%,rgba(4,13,22,.2)),url('images/cruise-hero.svg') center/cover}.hero:after{content:"";position:absolute;inset:auto 0 0;height:180px;background:linear-gradient(transparent,var(--cream))}.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:65px;align-items:center;padding:105px 0 145px}.hero-copy{max-width:720px}.hero h1{font-size:clamp(3.5rem,7vw,6.8rem);letter-spacing:-.025em;margin:20px 0 24px}.hero h1 em{color:var(--gold2);font-weight:500}.hero .lead{max-width:620px;color:rgba(255,255,255,.8);font-size:1.08rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.proof{display:flex;gap:24px;flex-wrap:wrap;margin-top:36px}.proof div{border-left:1px solid rgba(207,174,98,.5);padding-left:14px}.proof strong{display:block;color:var(--gold2);font-size:1.2rem}.proof span{font-size:.72rem;color:rgba(255,255,255,.64);text-transform:uppercase;letter-spacing:.1em}.concierge{justify-self:end;width:min(390px,100%);background:linear-gradient(160deg,rgba(255,255,255,.13),rgba(255,255,255,.05));border:1px solid rgba(207,174,98,.34);border-radius:28px;padding:30px;backdrop-filter:blur(18px);box-shadow:var(--shadow)}.concierge .portrait{height:260px;border-radius:18px;overflow:hidden;position:relative;background:url('images/gene-portrait.svg') center top/cover}.concierge .portrait:after{content:"Gene Stark";position:absolute;inset:auto 0 0;padding:50px 20px 18px;background:linear-gradient(transparent,rgba(0,0,0,.78));font:600 2rem "Cormorant Garamond"}.concierge p{color:rgba(255,255,255,.7);font-size:.88rem;margin:18px 0}.concierge .phone{font:600 1.9rem "Cormorant Garamond";color:var(--gold2)}
+section{padding:100px 0}.section-head{max-width:720px;margin-bottom:45px}.section-head h2{font-size:clamp(2.6rem,5vw,4.3rem);margin:14px 0 16px}.section-head p{color:var(--muted)}.intro{padding-top:38px}.service-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}.service{min-height:450px;border-radius:var(--radius);overflow:hidden;position:relative;box-shadow:var(--shadow)}.service img{height:100%;object-fit:cover;transition:.6s}.service:hover img{transform:scale(1.04)}.service:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 25%,rgba(5,15,25,.9))}.service-content{position:absolute;z-index:2;inset:auto 0 0;padding:38px;color:white}.service h3{font-size:2.45rem}.service p{color:rgba(255,255,255,.73);max-width:500px;margin:10px 0 18px}.text-link{color:var(--gold2);font-weight:700;font-size:.84rem}.trust-strip{display:grid;grid-template-columns:repeat(4,1fr);margin-top:24px;border:1px solid var(--line);border-radius:18px;background:var(--paper);overflow:hidden}.trust-strip div{padding:25px;text-align:center;border-right:1px solid var(--line)}.trust-strip div:last-child{border:0}.trust-strip strong{font:700 1.55rem "Cormorant Garamond";display:block;color:#83631f}.trust-strip span{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.destinations{background:#eee8dc}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.destination{background:var(--paper);border-radius:18px;overflow:hidden;border:1px solid rgba(126,99,41,.14);transition:.25s}.destination:hover{transform:translateY(-7px);box-shadow:var(--shadow)}.destination img{height:215px;object-fit:cover}.destination .copy{padding:23px}.destination small{color:#87651d;text-transform:uppercase;font-weight:700;letter-spacing:.14em}.destination h3{font-size:1.7rem;margin:7px 0}.destination p{font-size:.88rem;color:var(--muted)}
+.cruises{background:linear-gradient(140deg,var(--navy),var(--blue));color:white;position:relative;overflow:hidden}.cruises:before{content:"";position:absolute;width:540px;height:540px;border:1px solid rgba(207,174,98,.12);border-radius:50%;right:-180px;top:-240px}.cruises .section-head p{color:rgba(255,255,255,.68)}.cruise-feature{display:grid;grid-template-columns:1.08fr .92fr;background:rgba(255,255,255,.06);border:1px solid rgba(207,174,98,.3);border-radius:26px;overflow:hidden}.cruise-feature img{height:100%;min-height:500px;object-fit:cover}.cruise-copy{padding:48px}.cruise-copy h3{font-size:3rem;margin:12px 0}.cruise-copy p{color:rgba(255,255,255,.72)}.amenities{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:25px 0}.amenities span{padding:13px;border:1px solid rgba(255,255,255,.13);border-radius:10px;color:rgba(255,255,255,.8);font-size:.82rem}.line-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}.line-card{border:1px solid rgba(207,174,98,.22);border-radius:16px;padding:23px;background:rgba(255,255,255,.035)}.line-card h3{font-size:1.45rem;color:var(--gold2);margin-bottom:6px}.line-card p{font-size:.84rem;color:rgba(255,255,255,.64)}
+.process{background:var(--paper)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.step{padding:30px;border-radius:18px;border:1px solid var(--line);background:white}.num{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:var(--gold2);font:700 1.2rem "Cormorant Garamond"}.step h3{font-size:1.55rem;margin:18px 0 8px}.step p{font-size:.9rem;color:var(--muted)}
+.about{background:#efe9dd}.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:center}.about-photo{position:relative}.about-photo img{height:620px;object-fit:cover;border-radius:24px}.about-photo .seal{position:absolute;right:-25px;bottom:35px;width:145px;height:145px;background:var(--navy);color:var(--gold2);border:5px solid #efe9dd;border-radius:50%;display:grid;place-items:center;text-align:center;font-size:.72rem;text-transform:uppercase;letter-spacing:.12em}.about-copy h2{font-size:clamp(2.7rem,5vw,4.5rem);margin:15px 0 20px}.about-copy p{color:var(--muted);margin-bottom:16px}.credentials{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.credential{padding:18px;border-left:2px solid var(--gold);background:rgba(255,255,255,.55)}.credential strong{display:block;color:#735519}.credential span{font-size:.78rem;color:var(--muted)}
+.cta{padding:85px 0;background:linear-gradient(rgba(6,16,27,.87),rgba(6,16,27,.93)),url('images/casino-night.svg') center/cover;color:white;text-align:center}.cta h2{font-size:clamp(2.8rem,6vw,5rem);max-width:850px;margin:12px auto}.cta p{max-width:620px;margin:0 auto;color:rgba(255,255,255,.7)}.cta .actions{justify-content:center}.contact{background:var(--navy);color:white;padding:80px 0}.contact-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:55px}.contact h2{font-size:3.6rem}.contact p{color:rgba(255,255,255,.65)}.details{display:grid;gap:14px;margin-top:27px}.details a,.details span{display:flex;gap:13px;align-items:center;color:rgba(255,255,255,.86)}.form{background:white;color:var(--ink);border-radius:22px;padding:30px}.form h3{font-size:1.9rem;margin-bottom:18px}.field{display:grid;gap:7px;margin-bottom:13px}.field label{font-size:.75rem;font-weight:700;color:#52606f}.field input,.field select,.field textarea{width:100%;padding:13px 14px;border:1px solid #d9d5cd;border-radius:10px;background:#fbfaf6}.field textarea{min-height:95px;resize:vertical}.form .btn{width:100%;border:0}.form-note{font-size:.7rem;color:#7b8490;margin-top:10px;text-align:center}footer{background:#020a11;color:rgba(255,255,255,.52);padding:28px 0;font-size:.76rem}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center}.mobilebar{display:none}
+/* Content is visible by default. Animation only activates when JS is available. */
+.reveal{opacity:1;transform:none}
+.js .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.js .reveal.in{opacity:1;transform:none}
+@media(max-width:900px){.topbar{display:none}.links>a:not(.btn){display:none}.menu{display:block}.hero{min-height:auto}.hero-grid,.cruise-feature,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-grid{padding:90px 0 120px}.concierge{justify-self:start}.cards{grid-template-columns:1fr 1fr}.line-grid,.steps{grid-template-columns:1fr}.about-photo img{height:500px}.trust-strip{grid-template-columns:1fr 1fr}.trust-strip div:nth-child(2){border-right:0}.trust-strip div:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+[hidden]{display:none!important}
+html,body{max-width:100%;overflow-x:hidden}
+@media(max-width:620px){.wrap{width:calc(100% - 26px);max-width:1180px}.navin{min-height:68px}.logo-copy span{display:none}.links .btn{display:none}.hero{background-position:62% center}.hero-grid{padding:70px 0 110px}.hero h1{font-size:clamp(2.65rem,13vw,3.35rem);overflow-wrap:anywhere}.concierge{display:none}.service-grid,.cards,.credentials{grid-template-columns:1fr}.service{min-height:390px}.trust-strip{grid-template-columns:1fr 1fr}.destination img{height:190px}.cruise-copy{padding:28px}.cruise-feature img{min-height:310px}.amenities{grid-template-columns:1fr}.about-photo .seal{right:10px}.contact h2{font-size:clamp(2.35rem,11vw,2.75rem);overflow-wrap:anywhere}.foot{display:block;text-align:center}.mobilebar{position:fixed;z-index:60;display:grid;grid-template-columns:1fr 1fr;inset:auto 10px 10px;background:#07131f;border:1px solid rgba(207,174,98,.4);border-radius:16px;overflow:hidden;box-shadow:0 18px 40px rgba(0,0,0,.35)}.mobilebar a{padding:13px 10px;text-align:center;color:white;font-weight:700;font-size:.8rem}.mobilebar a:first-child{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#241a08}body{padding-bottom:72px}section{padding:72px 0}.btn{max-width:100%;white-space:normal;text-align:center}.actions{width:100%}.hero .actions .btn{flex:1 1 210px}.service-content{padding:28px 24px}.service h3{font-size:2.05rem}.details a,.details span{align-items:flex-start;overflow-wrap:anywhere}.form{padding:24px 18px}.cruise-copy h3{font-size:2.4rem}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}.reveal{opacity:1;transform:none}}
 
-/* ---------- reveal motion ---------- */
-.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
-.reveal.in{opacity:1;transform:none}
-.reveal.d1{transition-delay:.12s}.reveal.d2{transition-delay:.24s}.reveal.d3{transition-delay:.36s}
-@media (prefers-reduced-motion:reduce){
-  html{scroll-behavior:auto}
-  .reveal{opacity:1;transform:none;transition:none}
-  *{animation:none!important;transition:none!important}
-}
+/* Premium enhancements */
+.skip-link{position:absolute;left:-9999px;top:auto}.skip-link:focus{left:12px;top:12px;z-index:999;background:#fff;color:#07131f;padding:10px 14px;border-radius:8px}
+.hero-copy{position:relative}.hero-copy:before{content:"PRIVATE ACCESS • PERSONAL SERVICE";display:inline-block;margin-bottom:14px;padding:7px 12px;border:1px solid rgba(241,217,151,.38);border-radius:999px;color:var(--gold2);font-size:.65rem;font-weight:700;letter-spacing:.16em}
+.marquee{background:#06101a;border-top:1px solid rgba(207,174,98,.18);border-bottom:1px solid rgba(207,174,98,.18);color:rgba(255,255,255,.68);overflow:hidden}.marquee-track{display:flex;justify-content:center;gap:46px;padding:15px 24px;white-space:nowrap;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}.marquee-track b{color:var(--gold2)}
+.insider{background:var(--paper)}.insider-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center}.insider-visual{position:relative;min-height:500px;border-radius:26px;overflow:hidden;background:url('images/casino-night.svg') center/cover;box-shadow:var(--shadow)}.insider-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,19,31,.08),rgba(7,19,31,.85))}.insider-card{position:absolute;z-index:2;left:28px;right:28px;bottom:28px;padding:24px;border:1px solid rgba(241,217,151,.32);border-radius:18px;background:rgba(7,19,31,.78);backdrop-filter:blur(12px);color:white}.insider-card strong{display:block;font:600 1.8rem "Cormorant Garamond";color:var(--gold2)}.insider-card span{font-size:.82rem;color:rgba(255,255,255,.7)}.benefits{display:grid;gap:15px;margin-top:24px}.benefit{display:grid;grid-template-columns:42px 1fr;gap:14px;align-items:start;padding:16px 0;border-bottom:1px solid var(--line)}.benefit:last-child{border-bottom:0}.benefit i{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:var(--gold2);font-style:normal}.benefit h3{font-size:1.35rem;margin-bottom:4px}.benefit p{font-size:.87rem;color:var(--muted)}
+.testimonials{background:#e9e1d2}.quote-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.testimonial{position:relative;background:var(--paper);border:1px solid rgba(126,99,41,.14);border-radius:20px;padding:30px;box-shadow:0 15px 45px rgba(7,19,31,.08)}.testimonial:before{content:"“";position:absolute;top:8px;right:20px;font:700 5rem "Cormorant Garamond";color:rgba(207,174,98,.22)}.stars{color:#9a7428;letter-spacing:.12em;margin-bottom:14px}.testimonial p{font-family:"Cormorant Garamond";font-size:1.28rem;line-height:1.35}.testimonial footer{background:none;color:var(--muted);padding:18px 0 0;font:600 .72rem Manrope;text-transform:uppercase;letter-spacing:.1em}
+.faq{background:var(--cream)}.faq-list{max-width:900px}.faq details{border-bottom:1px solid var(--line);padding:20px 0}.faq summary{cursor:pointer;list-style:none;font:600 1.45rem "Cormorant Garamond";display:flex;justify-content:space-between;gap:20px}.faq summary::-webkit-details-marker{display:none}.faq summary:after{content:"+";color:#8a6a25}.faq details[open] summary:after{content:"–"}.faq details p{color:var(--muted);padding:12px 40px 0 0}
+.contact-badge{display:inline-flex;align-items:center;gap:9px;margin-top:22px;padding:9px 13px;border:1px solid rgba(207,174,98,.28);border-radius:999px;color:var(--gold2);font-size:.75rem}
+@media(max-width:900px){.insider-grid{grid-template-columns:1fr}.quote-grid{grid-template-columns:1fr}.marquee-track{justify-content:flex-start;overflow:auto}.insider-visual{min-height:420px}}
+@media(max-width:620px){.hero-copy:before{font-size:.56rem;letter-spacing:.1em}.proof{gap:16px}.proof div{min-width:40%}.insider-visual{min-height:350px}.insider-card{left:16px;right:16px;bottom:16px}.testimonial{padding:24px}.faq summary{font-size:1.25rem}.marquee-track{gap:28px;padding:13px}}
 
-/* ---------- nav ---------- */
-nav{
-  position:sticky;top:0;z-index:50;
-  background:rgba(251,250,247,.88);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-  border-bottom:1px solid var(--line);
-}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
-.brand{display:flex;align-items:baseline;gap:10px;font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:var(--ink)}
-.brand .gs{color:var(--gold)}
-.nav-links{display:flex;gap:32px;align-items:center}
-.nav-links a{color:var(--slate);font-weight:600;font-size:16px;transition:color .25s}
-.nav-links a:hover{color:var(--gold)}
-.nav-call{
-  background:var(--navy);color:#fff!important;padding:11px 22px;border-radius:999px;
-  font-weight:700;transition:background .25s,transform .25s;white-space:nowrap;
-}
-.nav-call:hover{background:var(--gold);transform:translateY(-1px)}
-.menu-btn{display:none;background:none;border:none;cursor:pointer;padding:8px}
-.menu-btn span{display:block;width:26px;height:3px;background:var(--ink);margin:5px 0;border-radius:2px;transition:.3s}
-.mobile-menu{display:none;flex-direction:column;padding:12px 24px 24px;border-top:1px solid var(--line);background:var(--ivory)}
-.mobile-menu a{padding:14px 4px;font-size:19px;font-weight:600;color:var(--ink);border-bottom:1px solid var(--line)}
-.mobile-menu a:last-child{border-bottom:none}
-@media(max-width:880px){
-  .nav-links{display:none}
-  .menu-btn{display:block}
-  .mobile-menu.open{display:flex}
-}
-
-/* ---------- hero ---------- */
-.hero{
-  background:linear-gradient(180deg,var(--navy) 0%,#1B3352 100%);
-  color:#fff;text-align:center;position:relative;overflow:hidden;
-}
-.hero::after{
-  content:"";position:absolute;inset:auto 0 -1px 0;height:120px;
-  background:linear-gradient(180deg,transparent,rgba(0,0,0,.18));pointer-events:none;
-}
-.hero .wrap{padding:96px 24px 110px;position:relative;z-index:1}
-.hero .eyebrow{
-  display:inline-block;letter-spacing:.22em;text-transform:uppercase;font-size:14px;font-weight:700;
-  color:var(--gold-light);margin-bottom:22px;
-}
-.hero h1{color:#fff;font-size:clamp(38px,5.4vw,64px);font-weight:600;max-width:850px;margin:0 auto 24px}
-.hero h1 em{font-style:italic;color:var(--gold-light)}
-.hero p{font-size:clamp(19px,2.2vw,23px);color:#D7DEE8;max-width:720px;margin:0 auto 42px}
-.hero-ctas{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
-.btn{
-  display:inline-flex;align-items:center;gap:10px;justify-content:center;
-  padding:17px 34px;border-radius:999px;font-size:19px;font-weight:700;
-  transition:transform .25s,box-shadow .25s,background .25s;cursor:pointer;border:none;
-}
-.btn-gold{background:var(--gold);color:#fff}
-.btn-gold:hover{background:var(--gold-light);transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.25)}
-.btn-ghost{background:rgba(255,255,255,.1);color:#fff;border:1.5px solid rgba(255,255,255,.45)}
-.btn-ghost:hover{background:rgba(255,255,255,.2);transform:translateY(-2px)}
-.hero-badges{display:flex;gap:14px 36px;justify-content:center;flex-wrap:wrap;margin-top:56px;color:#B9C5D4;font-size:16px;font-weight:600}
-.hero-badges span{display:flex;align-items:center;gap:9px}
-.hero-badges svg{flex:none}
-
-/* ---------- gold divider signature ---------- */
-.divider{display:flex;align-items:center;gap:16px;justify-content:center;margin:0 auto 18px;max-width:340px}
-.divider::before,.divider::after{content:"";flex:1;height:1px;background:var(--gold);opacity:.5}
-.divider .dot{width:7px;height:7px;background:var(--gold);border-radius:50%}
-
-/* ---------- sections ---------- */
-section{padding:96px 0}
-.section-head{text-align:center;max-width:760px;margin:0 auto 60px}
-.section-head .kicker{letter-spacing:.2em;text-transform:uppercase;font-size:14px;font-weight:700;color:var(--gold);display:block;margin-bottom:14px}
-.section-head h2{font-size:clamp(30px,4vw,44px);font-weight:600;margin-bottom:18px}
-.section-head p{color:var(--slate);font-size:20px}
-
-/* two pillars */
-.pillars{display:grid;grid-template-columns:1fr 1fr;gap:28px}
-.pillar{
-  background:var(--white);border:1px solid var(--line);border-radius:var(--radius);
-  padding:48px 42px;box-shadow:var(--shadow);transition:transform .35s ease,box-shadow .35s ease;
-  display:flex;flex-direction:column;
-}
-.pillar:hover{transform:translateY(-6px);box-shadow:var(--shadow-lift)}
-.pillar .icon{
-  width:64px;height:64px;border-radius:16px;background:var(--gold-wash);
-  display:flex;align-items:center;justify-content:center;margin-bottom:26px;
-}
-.pillar h3{font-size:28px;margin-bottom:14px}
-.pillar p{color:var(--slate);margin-bottom:26px;flex:1}
-.pillar .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:30px}
-.tag{background:var(--gold-wash);color:var(--gold);border:1px solid #E9DFC2;padding:6px 14px;border-radius:999px;font-size:15px;font-weight:700}
-.link-arrow{font-weight:700;font-size:18px;color:var(--gold);display:inline-flex;align-items:center;gap:8px;transition:gap .25s}
-.link-arrow:hover{gap:13px}
-@media(max-width:820px){.pillars{grid-template-columns:1fr}}
-
-/* destinations */
-.dest-section{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.dest-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.dest{
-  background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:32px 30px;
-  transition:transform .3s,box-shadow .3s,border-color .3s;
-}
-.dest:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#DCCFA6}
-.dest .city{font-size:14px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--gold);margin-bottom:8px}
-.dest h3{font-size:23px;margin-bottom:10px}
-.dest p{color:var(--slate);font-size:17px}
-@media(max-width:900px){.dest-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:600px){.dest-grid{grid-template-columns:1fr}}
-
-.perks{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin-top:52px}
-.perk{
-  display:flex;align-items:center;gap:12px;background:var(--gold-wash);border:1px solid #E9DFC2;
-  border-radius:999px;padding:13px 26px;font-weight:700;color:var(--ink);font-size:17px;
-}
-
-/* cruises */
-.cruise-section{background:linear-gradient(180deg,var(--ivory),#F3F0E7)}
-.cruise-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-bottom:56px}
-.cruise{
-  background:var(--white);border:1px solid var(--line);border-radius:var(--radius);
-  padding:36px 28px;text-align:center;transition:transform .3s,box-shadow .3s;
-}
-.cruise:hover{transform:translateY(-5px);box-shadow:var(--shadow-lift)}
-.cruise .mono{
-  font-family:'Playfair Display',serif;font-size:30px;font-weight:700;color:var(--gold);
-  width:70px;height:70px;border-radius:50%;background:var(--gold-wash);border:1px solid #E9DFC2;
-  display:flex;align-items:center;justify-content:center;margin:0 auto 20px;
-}
-.cruise h3{font-size:21px;margin-bottom:8px}
-.cruise p{color:var(--slate);font-size:16px}
-@media(max-width:960px){.cruise-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:540px){.cruise-grid{grid-template-columns:1fr}}
-
-.la-banner{
-  background:var(--navy);color:#fff;border-radius:var(--radius);padding:46px 48px;
-  display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;
-  box-shadow:var(--shadow-lift);
-}
-.la-banner h3{color:#fff;font-size:27px;margin-bottom:10px}
-.la-banner p{color:#C9D3DF;max-width:600px;font-size:18px}
-.la-banner .btn{flex:none}
-
-/* about */
-.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}
-.about-grid h2{font-size:clamp(30px,3.6vw,42px);font-weight:600;margin-bottom:24px}
-.about-grid .lead{font-size:21px;color:var(--ink);margin-bottom:18px}
-.about-grid p{color:var(--slate);margin-bottom:18px}
-.sig{font-family:'Playfair Display',serif;font-style:italic;font-size:26px;color:var(--gold);margin-top:8px}
-.cred-card{
-  background:var(--white);border:1px solid var(--line);border-radius:var(--radius);
-  padding:44px 40px;box-shadow:var(--shadow);
-}
-.cred{display:flex;gap:18px;padding:20px 0;border-bottom:1px solid var(--line);align-items:flex-start}
-.cred:last-child{border-bottom:none}
-.cred .num{font-family:'Playfair Display',serif;font-size:34px;font-weight:700;color:var(--gold);line-height:1;min-width:86px}
-.cred .lbl{font-weight:700;font-size:18px;margin-bottom:3px}
-.cred .sub{color:var(--slate);font-size:16px}
-@media(max-width:880px){.about-grid{grid-template-columns:1fr;gap:44px}}
-
-/* quote */
-.quote{background:var(--navy);text-align:center;padding:88px 0}
-.quote blockquote{
-  font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(24px,3.4vw,36px);
-  color:#fff;max-width:820px;margin:0 auto 22px;line-height:1.4;
-}
-.quote cite{color:var(--gold-light);font-style:normal;font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:15px}
-
-/* travel notes */
-.notes{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.note{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:34px 30px;box-shadow:var(--shadow)}
-.note h3{font-size:20px;margin-bottom:10px;display:flex;align-items:center;gap:10px}
-.note p{color:var(--slate);font-size:17px}
-@media(max-width:880px){.notes{grid-template-columns:1fr}}
-
-/* contact */
-.contact{background:var(--white);border-top:1px solid var(--line)}
-.contact-card{
-  max-width:820px;margin:0 auto;text-align:center;background:var(--ivory);
-  border:1px solid var(--line);border-radius:24px;padding:64px 48px;box-shadow:var(--shadow);
-}
-.contact-card h2{font-size:clamp(30px,4vw,42px);margin-bottom:14px}
-.contact-card>p{color:var(--slate);font-size:20px;margin-bottom:40px}
-.contact-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
-.btn-navy{background:var(--navy);color:#fff}
-.btn-navy:hover{background:#1B3352;transform:translateY(-2px);box-shadow:var(--shadow-lift)}
-.btn-outline{background:transparent;color:var(--navy);border:2px solid var(--navy)}
-.btn-outline:hover{background:var(--navy);color:#fff;transform:translateY(-2px)}
-.contact-lines{color:var(--slate);font-size:18px;line-height:2}
-.contact-lines strong{color:var(--ink)}
-@media(max-width:560px){.contact-card{padding:44px 24px}.btn{width:100%}}
-
-/* footer */
-footer{background:var(--navy);color:#9FAEC0;padding:56px 0 40px;font-size:16px}
-.foot-top{display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap;padding-bottom:32px;border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:28px}
-.foot-brand{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;color:#fff;margin-bottom:10px}
-.foot-brand .gs{color:var(--gold-light)}
-footer a{color:#C9D3DF}
-footer a:hover{color:var(--gold-light)}
-.foot-links{display:flex;flex-direction:column;gap:10px}
-.foot-bottom{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:15px}
 </style>
 </head>
 <body>
-
-<nav>
-  <div class="wrap nav-inner">
-    <a href="#top" class="brand"><span class="gs">GS</span> VIP Travel</a>
-    <div class="nav-links">
-      <a href="#caesars">Caesars Resorts</a>
-      <a href="#cruises">Luxury Cruises</a>
-      <a href="#about">About Gene</a>
-      <a href="#notes">Travel Notes</a>
-      <a href="tel:9492931661" class="nav-call">Call Gene · 949-293-1661</a>
-    </div>
-    <button class="menu-btn" aria-label="Open menu" onclick="document.getElementById('mm').classList.toggle('open')">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-  <div class="mobile-menu" id="mm">
-    <a href="#caesars">Caesars Resorts</a>
-    <a href="#cruises">Luxury Cruises</a>
-    <a href="#about">About Gene</a>
-    <a href="#notes">Travel Notes</a>
-    <a href="tel:9492931661"><strong>Call Gene · 949-293-1661</strong></a>
-  </div>
-</nav>
-
-<header class="hero" id="top">
-  <div class="wrap">
-    <span class="eyebrow reveal">Independent Casino Representative · Est. Relationships Since 1989</span>
-    <h1 class="reveal d1">Casino VIP experiences,<br><em>on land and at sea.</em></h1>
-    <p class="reveal d2">Gene Stark personally arranges exclusive Caesars Entertainment resort stays and luxury casino cruises for VIP players — every reservation handled for you, start to finish.</p>
-    <div class="hero-ctas reveal d3">
-      <a class="btn btn-gold" href="tel:9492931661">📞&nbsp; Call Gene Directly</a>
-      <a class="btn btn-ghost" href="#caesars">Explore Destinations</a>
-    </div>
-    <div class="hero-badges reveal d3">
-      <span>✦&nbsp; 35+ Years of VIP Service</span>
-      <span>✦&nbsp; Caesars Entertainment Representative</span>
-      <span>✦&nbsp; CLIA Member</span>
-    </div>
-  </div>
-</header>
-
-<section id="pillars">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <span class="kicker">Two Ways to Play</span>
-      <div class="divider"><span class="dot"></span></div>
-      <h2>Your premier connection for VIP travel</h2>
-      <p>Whether you're seeking a Casino Resort retreat or an adventure at sea, GS VIP Travel makes every arrangement so your trip is fun, exciting, and completely stress-free.</p>
-    </div>
-    <div class="pillars">
-      <div class="pillar reveal">
-        <div class="icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#A8862D" stroke-width="1.8"><path d="M3 21h18M4 21V8l8-5 8 5v13M9 21v-6h6v6M9 11h.01M15 11h.01"/></svg></div>
-        <h3>Caesars Entertainment Resorts</h3>
-        <p>Exclusive VIP reservations at Caesars destinations across Nevada, California, and New Orleans — including special events, show tickets, tier credit multipliers, and Seven Stars benefits.</p>
-        <div class="tags">
-          <span class="tag">Las Vegas</span><span class="tag">Lake Tahoe</span><span class="tag">Reno</span>
-          <span class="tag">San Diego</span><span class="tag">New Orleans</span><span class="tag">Laughlin</span>
-        </div>
-        <a class="link-arrow" href="#caesars">See Caesars destinations →</a>
-      </div>
-      <div class="pillar reveal d1">
-        <div class="icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#A8862D" stroke-width="1.8"><path d="M2 20c1.5 1 3 1 4.5 0s3-1 4.5 0 3 1 4.5 0 3-1 4.5 0M4 17l-1-5 9-3 9 3-1 5M12 9V4M8 6h8"/></svg></div>
-        <h3>Luxury Casino Cruises</h3>
-        <p>Full-service "Casino Resorts at Sea" — world-class ships with luxury accommodations, fabulous restaurants and shows, and exciting Vegas-style gaming. Wake up to new scenery every day.</p>
-        <div class="tags">
-          <span class="tag">MSC Cruises</span><span class="tag">Norwegian</span>
-          <span class="tag">Royal Caribbean</span><span class="tag">Celebrity</span>
-        </div>
-        <a class="link-arrow" href="#cruises">See cruise lines →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="caesars" class="dest-section">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <span class="kicker">Caesars Entertainment</span>
-      <div class="divider"><span class="dot"></span></div>
-      <h2>Nevada, California &amp; New Orleans</h2>
-      <p>Gene arranges VIP stays, special events, and show reservations at these Caesars destinations. Call to find the property and promotion that suits you best.</p>
-    </div>
-    <div class="dest-grid">
-      <div class="dest reveal"><div class="city">Nevada</div><h3>Las Vegas</h3><p>Special events for VIP guests, headline shows, and the full Las Vegas Strip experience.</p></div>
-      <div class="dest reveal d1"><div class="city">Nevada</div><h3>Lake Tahoe</h3><p>Harrah's and Caesars Republic — lakeside gaming with alpine scenery year-round.</p></div>
-      <div class="dest reveal d2"><div class="city">Nevada</div><h3>Reno: The Row</h3><p>Downtown Reno's premier connected resort experience for VIP players.</p></div>
-      <div class="dest reveal"><div class="city">California</div><h3>San Diego: Harrah's SoCal</h3><p>Resort getaway just outside San Diego — a Southern California favorite.</p></div>
-      <div class="dest reveal d1"><div class="city">Louisiana</div><h3>New Orleans</h3><p>Caesars New Orleans — world-class gaming in the heart of the French Quarter's doorstep.</p></div>
-      <div class="dest reveal d2"><div class="city">Nevada</div><h3>Laughlin</h3><p>Harrah's and Tropicana on the Colorado River — a relaxed riverside gaming escape.</p></div>
-    </div>
-    <div class="perks reveal">
-      <span class="perk">⭐&nbsp; Seven Stars Benefits</span>
-      <span class="perk">🎟️&nbsp; Las Vegas Shows &amp; Events</span>
-      <span class="perk">✨&nbsp; Tier Credit Multipliers &amp; Special Promotions</span>
-    </div>
-  </div>
-</section>
-
-<section id="cruises" class="cruise-section">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <span class="kicker">Casino VIP Cruising</span>
-      <div class="divider"><span class="dot"></span></div>
-      <h2>World-class cruise lines we represent</h2>
-      <p>Your gaming action qualifies you for casino perks like comps and discounts at sea. Gene will match you with the casino cruise promotion that best suits your play.</p>
-    </div>
-    <div class="cruise-grid">
-      <div class="cruise reveal"><div class="mono">M</div><h3>MSC Cruises</h3><p>European luxury with the exclusive Yacht Club — a "ship within a ship." Sailings from the US and Europe.</p></div>
-      <div class="cruise reveal d1"><div class="mono">N</div><h3>Norwegian</h3><p>Freestyle cruising with worldwide itineraries — including departures from Los Angeles.</p></div>
-      <div class="cruise reveal d2"><div class="mono">R</div><h3>Royal Caribbean</h3><p>The world's most innovative ships, with convenient sailings from Los Angeles.</p></div>
-      <div class="cruise reveal d3"><div class="mono">C</div><h3>Celebrity</h3><p>Modern luxury at sea with refined dining, service, and elegant casino floors.</p></div>
-    </div>
-    <div class="la-banner reveal">
-      <div>
-        <h3>Departing from Los Angeles?</h3>
-        <p>Enjoy a fun 3+ night cruise from LA to Mexico round-trip aboard newer world-class ships — luxury accommodations, fabulous restaurants and shows, and exciting Vegas-style gaming.</p>
-      </div>
-      <a class="btn btn-gold" href="tel:9492931661">Ask Gene About LA Sailings</a>
-    </div>
-  </div>
-</section>
-
-<section id="about">
-  <div class="wrap about-grid">
-    <div class="reveal">
-      <span class="kicker" style="letter-spacing:.2em;text-transform:uppercase;font-size:14px;font-weight:700;color:var(--gold);display:block;margin-bottom:14px">About Gene Stark</span>
-      <h2>Casino VIPs benefit by booking through us</h2>
-      <p class="lead">Gene Stark has spent more than 35 years providing superior service to Casino VIPs — first at Caesars Entertainment, and now as an Independent Gaming Representative.</p>
-      <p>GS VIP Travel specializes in assisting Casino VIPs with reservations and arrangements for fun trips on land and at sea. We're exclusive representatives for Caesars Entertainment and several upscale luxury cruise lines — with more to come.</p>
-      <p>We're always delighted to help you book new and exciting destinations where luxury, comfort, and adventure await. Please let us know anytime we can be of assistance.</p>
-      <p class="sig">Cheers to fun travel, — Gene</p>
-    </div>
-    <div class="cred-card reveal d1">
-      <div class="cred"><div class="num">35+</div><div><div class="lbl">Years of VIP Service</div><div class="sub">At Caesars Entertainment and as an Independent Representative</div></div></div>
-      <div class="cred"><div class="num">NVGB</div><div><div class="lbl">Independent Gaming Representative</div><div class="sub">Registered — Nevada Gaming Board</div></div></div>
-      <div class="cred"><div class="num">CLIA</div><div><div class="lbl">Cruise Lines International Association</div><div class="sub">Member in good standing</div></div></div>
-      <div class="cred"><div class="num">5</div><div><div class="lbl">Brands Represented</div><div class="sub">Caesars, MSC, Norwegian, Royal Caribbean, Celebrity</div></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="quote">
-  <div class="wrap reveal">
-    <blockquote>"Guests who take the time to plan the details of their casino vacation are usually the happiest guests."</blockquote>
-    <cite>— Gene Stark</cite>
-  </div>
-</section>
-
-<section id="notes">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <span class="kicker">Travel Notes</span>
-      <div class="divider"><span class="dot"></span></div>
-      <h2>A few tips before you book</h2>
-    </div>
-    <div class="notes">
-      <div class="note reveal"><h3>🛡️ Protect your trip</h3><p>We recommend purchasing travel insurance to help reimburse you for unforeseen cancellation, medical, or other expenses.</p></div>
-      <div class="note reveal d1"><h3>📅 Book ahead</h3><p>To keep the casino comfortable, most cruise lines limit the number of Casino Cruise Offers allowed per sailing — reserve early.</p></div>
-      <div class="note reveal d2"><h3>🎰 Play qualifies you</h3><p>Your gaming action earns casino perks like comps and discounts. Call Gene to find the player promotion that best fits your play.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="contact" id="contact">
-  <div class="wrap">
-    <div class="contact-card reveal">
-      <span class="kicker" style="letter-spacing:.2em;text-transform:uppercase;font-size:14px;font-weight:700;color:var(--gold);display:block;margin-bottom:14px">Ready When You Are</span>
-      <h2>Let's plan your next getaway</h2>
-      <p>Contact Gene for assistance with all of your Casino VIP reservation requests — land or sea. All cruises subject to availability.</p>
-      <div class="contact-btns">
-        <a class="btn btn-navy" href="tel:9492931661">📞&nbsp; Gene's Cell · 949-293-1661</a>
-        <a class="btn btn-outline" href="mailto:genestark@outlook.com">✉️&nbsp; Email Gene</a>
-      </div>
-      <div class="contact-lines">
-        <strong>GS VIP Travel</strong> · Office 949-800-7067<br>
-        genestark@outlook.com · www.gsviptravel.com<br>
-        7131 Yorktown Ave #1002, Huntington Beach, CA 92648
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">
-    <div class="foot-top">
-      <div>
-        <div class="foot-brand"><span class="gs">GS</span> VIP Travel</div>
-        <p style="max-width:380px">Exclusive Casino VIP Player Experiences and Luxury Cruises.<br>Gene Stark — Independent Gaming Representative (NVGB).</p>
-      </div>
-      <div class="foot-links">
-        <a href="#caesars">Caesars Resorts</a>
-        <a href="#cruises">Luxury Cruises</a>
-        <a href="#about">About Gene</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <div class="foot-links">
-        <a href="tel:9492931661">Cell: 949-293-1661</a>
-        <a href="tel:9498007067">Office: 949-800-7067</a>
-        <a href="mailto:genestark@outlook.com">genestark@outlook.com</a>
-      </div>
-    </div>
-    <div class="foot-bottom">
-      <span>© 2026 GS VIP Travel Specialists — All Rights Reserved.</span>
-      <span>Caesars Entertainment · MSC Cruises · Norwegian · Royal Caribbean · Celebrity</span>
-    </div>
-  </div>
-</footer>
-
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="topbar"><div class="wrap"><span>Independent Casino &amp; Cruise Travel Representation</span><span>Personal assistance: <a href="tel:19492931661">949-293-1661</a></span></div></div>
+<header class="nav"><div class="wrap navin"><a class="logo" href="#top"><span class="logo-mark">GS</span><span class="logo-copy"><strong>GS VIP TRAVEL</strong><span>Casino experiences · Land &amp; sea</span></span></a><nav class="links"><a href="#resorts">Resorts</a><a href="#cruises">Cruises</a><a href="#about">About Gene</a><a href="#faq">FAQ</a><a href="#contact">Contact</a><a class="btn gold" href="tel:19492931661">Call Gene</a><button class="menu" type="button" aria-label="Open navigation" aria-controls="mobileMenu" aria-expanded="false">Menu</button></nav></div><div id="mobileMenu" hidden style="padding:12px 20px 20px;background:#07131f;color:white"><a style="display:block;padding:10px" href="#resorts">Resorts</a><a style="display:block;padding:10px" href="#cruises">Cruises</a><a style="display:block;padding:10px" href="#about">About Gene</a><a style="display:block;padding:10px" href="#faq">FAQ</a><a style="display:block;padding:10px" href="#contact">Contact</a></div></header>
+<main id="main">
+<section class="hero" id="top"><div class="wrap hero-grid"><div class="hero-copy reveal"><div class="eyebrow dark-eyebrow">Personal VIP travel since 1989</div><h1>Your casino getaway, <em>personally arranged.</em></h1><p class="lead">From Caesars Entertainment resort stays to luxury casino cruises, Gene Stark handles the details so you can focus on the experience.</p><div class="actions"><a class="btn gold" href="tel:19492931661">☎ Call Gene Directly</a><a class="btn ghost" href="#resorts">Explore Experiences</a></div><div class="proof"><div><strong>35+ Years</strong><span>VIP Service</span></div><div><strong>Land &amp; Sea</strong><span>Personal Planning</span></div><div><strong>One Call</strong><span>Start to Finish</span></div></div></div><aside class="concierge reveal"><div class="portrait"></div><p>Your personal point of contact for qualifying casino resort stays, luxury cruises, events and VIP travel arrangements.</p><a class="phone" href="tel:19492931661">949 · 293 · 1661</a></aside></div></section>
+<div class="marquee" aria-label="Travel partners and services"><div class="marquee-track"><span><b>Caesars</b> destinations</span><span><b>MSC</b> Yacht Club</span><span><b>Norwegian</b> Cruise Line</span><span><b>Royal Caribbean</b></span><span><b>Celebrity</b> Cruises</span></div></div>
+<section class="intro" id="resorts"><div class="wrap"><div class="section-head reveal"><div class="eyebrow">Two ways to travel</div><h2>VIP experiences on land and at sea</h2><p>Luxury should feel effortless. Choose your setting and let GS VIP Travel coordinate the details around your casino play and travel preferences.</p></div><div class="service-grid"><article class="service reveal"><img loading="eager" decoding="async" src="images/resort.svg" alt="Luxury casino resort at night"><div class="service-content"><h3>Casino Resort Escapes</h3><p>VIP arrangements at select Caesars Entertainment destinations, including resort stays, special events and entertainment.</p><a class="text-link" href="#destinations">View destinations →</a></div></article><article class="service reveal"><img loading="eager" decoding="async" src="images/cruise-hero.svg" alt="Luxury cruise ship at sea"><div class="service-content"><h3>Casino Cruises</h3><p>Upscale ships, world-class dining, exciting entertainment and Vegas-style gaming while you explore new destinations.</p><a class="text-link" href="#cruises">Explore cruise lines →</a></div></article></div><div class="trust-strip reveal"><div><strong>35+</strong><span>Years serving VIP guests</span></div><div><strong>NVGB</strong><span>Registered representative</span></div><div><strong>CLIA</strong><span>Industry member</span></div><div><strong>Direct</strong><span>Personal assistance</span></div></div></div></section>
+<section class="destinations" id="destinations"><div class="wrap"><div class="section-head reveal"><div class="eyebrow">Featured casino destinations</div><h2>Find the experience that fits your style</h2><p>Ask Gene about current availability, qualifying play requirements, promotions, special events and preferred travel dates.</p></div><div class="cards"><article class="destination reveal"><img loading="eager" decoding="async" src="images/las-vegas.svg" alt="Las Vegas skyline"><div class="copy"><small>Nevada</small><h3>Las Vegas</h3><p>Iconic casino resorts, headline entertainment and elevated VIP experiences on the Strip.</p></div></article><article class="destination reveal"><img loading="eager" decoding="async" src="images/tahoe.svg" alt="Mountain lake landscape"><div class="copy"><small>Nevada</small><h3>Lake Tahoe</h3><p>Casino excitement paired with alpine scenery and a relaxed year-round resort atmosphere.</p></div></article><article class="destination reveal"><img loading="eager" decoding="async" src="images/new-orleans.svg" alt="New Orleans French Quarter"><div class="copy"><small>Louisiana</small><h3>New Orleans</h3><p>Gaming, celebrated dining, live music and the energy of the French Quarter nearby.</p></div></article><article class="destination reveal"><img loading="eager" decoding="async" src="images/socal.svg" alt="Southern California resort pool"><div class="copy"><small>California</small><h3>Harrah's SoCal</h3><p>A Southern California resort escape with casino action, pools, dining and entertainment.</p></div></article><article class="destination reveal"><img loading="eager" decoding="async" src="images/laughlin.svg" alt="River landscape"><div class="copy"><small>Nevada</small><h3>Laughlin</h3><p>A comfortable riverside casino getaway with a more relaxed pace along the Colorado River.</p></div></article><article class="destination reveal"><img loading="eager" decoding="async" src="images/reno.svg" alt="Luxury hotel room"><div class="copy"><small>Nevada</small><h3>Reno · The Row</h3><p>A connected downtown resort experience featuring gaming, dining and entertainment.</p></div></article></div></div></section>
+<section class="insider"><div class="wrap insider-grid"><div class="insider-visual reveal"><div class="insider-card"><strong>More than a reservation</strong><span>Gene helps match qualifying players with the right destination, timing and travel experience.</span></div></div><div class="reveal"><div class="eyebrow">The GS VIP difference</div><div class="section-head" style="margin:0"><h2>Personal access in a self-service world</h2><p>Online booking shows you inventory. Gene helps you understand the experience behind it.</p></div><div class="benefits"><div class="benefit"><i>01</i><div><h3>One trusted point of contact</h3><p>Speak directly with Gene instead of navigating multiple call centers and booking channels.</p></div></div><div class="benefit"><i>02</i><div><h3>Casino-aware recommendations</h3><p>Discuss your preferred gaming atmosphere, destinations, dates and qualifying play.</p></div></div><div class="benefit"><i>03</i><div><h3>Land and sea expertise</h3><p>Compare resort stays with casino cruises through one experienced representative.</p></div></div></div><a class="btn outline" href="tel:19492931661">Speak With Gene</a></div></div></section>
+<section class="cruises" id="cruises"><div class="wrap"><div class="section-head reveal"><div class="eyebrow dark-eyebrow">Casino resorts at sea</div><h2>Wake up somewhere new</h2><p>Enjoy the excitement of a casino resort with the added experience of discovering new destinations along the way.</p></div><div class="cruise-feature reveal"><img loading="eager" decoding="async" src="images/yacht-club.svg" alt="Luxury cruise ship balcony view"><div class="cruise-copy"><div class="eyebrow dark-eyebrow">Featured experience</div><h3>MSC Yacht Club</h3><p>A private “ship within a ship” experience with elevated accommodations, dedicated service and access to the entertainment, dining and casino of a world-class cruise ship.</p><div class="amenities"><span>Private lounge &amp; sundeck</span><span>Premium accommodations</span><span>Dedicated concierge service</span><span>Casino play opportunities</span></div><a class="btn gold" href="tel:19492931661">Ask About MSC Sailings</a></div></div><div class="line-grid"><article class="line-card"><h3>Norwegian Cruise Line</h3><p>Freestyle cruising, contemporary ships and select departures from Los Angeles.</p></article><article class="line-card"><h3>Royal Caribbean</h3><p>Innovative ships, entertainment and short Mexico itineraries from Southern California.</p></article><article class="line-card"><h3>Celebrity Cruises</h3><p>Modern luxury, refined dining and an elegant atmosphere for guests at sea.</p></article></div></div></section>
+<section class="testimonials"><div class="wrap"><div class="section-head reveal"><div class="eyebrow">The value of personal service</div><h2>Travel feels better when someone knows your preferences</h2><p>Representative comments below illustrate the kind of service GS VIP Travel is built to provide.</p></div><div class="quote-grid"><blockquote class="testimonial reveal"><div class="stars">★★★★★</div><p>“Having one person coordinate the details makes the entire trip feel easier from the beginning.”</p><footer>VIP resort traveler</footer></blockquote><blockquote class="testimonial reveal"><div class="stars">★★★★★</div><p>“Gene explains the options clearly and helps us choose what actually fits the way we like to travel.”</p><footer>Casino cruise guest</footer></blockquote><blockquote class="testimonial reveal"><div class="stars">★★★★★</div><p>“The personal follow-through is what separates this from simply booking a room or a cruise online.”</p><footer>Longtime casino guest</footer></blockquote></div></div></section>
+<section class="process"><div class="wrap"><div class="section-head reveal"><div class="eyebrow">Simple, personal service</div><h2>One conversation starts the journey</h2></div><div class="steps"><article class="step reveal"><div class="num">1</div><h3>Share your preferences</h3><p>Tell Gene where you want to go, your preferred dates and the type of casino experience you enjoy.</p></article><article class="step reveal"><div class="num">2</div><h3>Review your options</h3><p>Gene will discuss suitable properties, cruise lines, availability and any qualifying requirements.</p></article><article class="step reveal"><div class="num">3</div><h3>Travel with confidence</h3><p>Your arrangements are coordinated personally, giving you a direct point of contact before your trip.</p></article></div></div></section>
+<section class="about" id="about"><div class="wrap about-grid"><div class="about-photo reveal"><img loading="eager" decoding="async" src="images/gene-portrait.svg" alt="Professional portrait representing personal VIP service"><div class="seal">35+ years<br>VIP service</div></div><div class="about-copy reveal"><div class="eyebrow">About Gene Stark</div><h2>Experience matters when every detail counts</h2><p>Gene Stark has spent more than 35 years serving casino VIP guests—first with Caesars Entertainment and now as an independent gaming representative.</p><p>GS VIP Travel helps qualifying players explore resort stays and upscale cruise experiences while providing the personal service that is often missing from online booking.</p><p>From the first conversation through the final arrangements, Gene remains your direct point of contact.</p><div class="credentials"><div class="credential"><strong>Nevada Gaming</strong><span>Independent gaming representative</span></div><div class="credential"><strong>CLIA Member</strong><span>Cruise industry affiliation</span></div><div class="credential"><strong>Caesars Experience</strong><span>Decades of casino VIP knowledge</span></div><div class="credential"><strong>Personal Service</strong><span>Direct assistance from Gene</span></div></div></div></div></section>
+<section class="faq" id="faq"><div class="wrap"><div class="section-head reveal"><div class="eyebrow">Frequently asked questions</div><h2>Before you call</h2><p>A few helpful answers about casino travel planning and qualification.</p></div><div class="faq-list reveal"><details><summary>Do I need to be a qualified casino player?</summary><p>Many casino offers, complimentary stays and cruise benefits are based on verified play history and are subject to the policies of the participating property or cruise line.</p></details><details><summary>Can Gene help with both land and cruise trips?</summary><p>Yes. GS VIP Travel focuses on casino resort destinations as well as select luxury cruise lines with casino programs.</p></details><details><summary>Are promotions and rooms guaranteed?</summary><p>No. All offers, rooms, suites, events, sailings and casino benefits remain subject to availability, qualification and final approval by the applicable operator.</p></details><details><summary>What information should I have ready?</summary><p>Your preferred destination, travel dates, contact information and relevant casino loyalty or play information will help Gene discuss suitable options.</p></details></div></div></section>
+<section class="cta"><div class="wrap reveal"><div class="eyebrow dark-eyebrow" style="justify-content:center">Your next trip starts here</div><h2>Let’s create a casino getaway worth remembering.</h2><p>Call Gene to discuss your travel dates, casino preferences and the experience you have in mind.</p><div class="actions"><a class="btn gold" href="tel:19492931661">☎ 949-293-1661</a><a class="btn ghost" href="mailto:genestark@outlook.com">✉ Email Gene</a></div></div></section>
+<section class="contact" id="contact"><div class="wrap contact-grid"><div class="reveal"><div class="eyebrow dark-eyebrow">Contact GS VIP Travel</div><h2>Personal help, without the call center.</h2><p>Reach Gene directly for casino resort and luxury cruise reservation assistance.</p><div class="contact-badge">● Direct, personal assistance</div><div class="details"><a href="tel:19492931661">☎ Gene Stark: 949-293-1661</a><a href="mailto:genestark@outlook.com">✉ genestark@outlook.com</a><a href="tel:18182121018">☎ Adam Stark, VIP Cruise Specialist: 818-212-1018</a><span>⌖ 7131 Yorktown Ave #1002, Huntington Beach, CA 92648</span></div></div><form class="form reveal" action="mailto:genestark@outlook.com" method="post" enctype="text/plain"><h3>Start a travel conversation</h3><div class="field"><label for="name">Name</label><input id="name" name="Name" required></div><div class="field"><label for="contactMethod">Phone or email</label><input id="contactMethod" name="Contact" required></div><div class="field"><label for="interest">I’m interested in</label><select id="interest" name="Interest"><option>Casino resort stay</option><option>Luxury casino cruise</option><option>Los Angeles cruise departure</option><option>Not sure yet</option></select></div><div class="field"><label for="message">Preferred dates or details</label><textarea id="message" name="Message"></textarea></div><button class="btn gold" type="submit">Send Inquiry</button><p class="form-note">This form opens your email application. Travel and casino offers are subject to availability and qualification.</p></form></div></section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 GS VIP Travel Specialists. All rights reserved.</span><span>All travel, casino offers and sailings are subject to availability and applicable qualification.</span></div></footer>
+<div class="mobilebar"><a href="tel:19492931661">Call Gene</a><a href="mailto:genestark@outlook.com">Email</a></div>
 <script>
-// gentle scroll-reveal
-const io = new IntersectionObserver((entries)=>{
-  entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
-},{threshold:0.12});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+(function(){
+  var reveals=document.querySelectorAll('.reveal');
+  var reduced=window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-// close mobile menu on link tap
-document.querySelectorAll('#mm a').forEach(a=>a.addEventListener('click',()=>document.getElementById('mm').classList.remove('open')));
+  function showEverything(){
+    for(var i=0;i<reveals.length;i++) reveals[i].classList.add('in');
+  }
+
+  if(reduced || !('IntersectionObserver' in window)){
+    showEverything();
+  }else{
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    },{threshold:0.08,rootMargin:'0px 0px 80px 0px'});
+    for(var i=0;i<reveals.length;i++) io.observe(reveals[i]);
+    window.setTimeout(showEverything,1800);
+  }
+
+  var menu=document.getElementById('mobileMenu');
+  var menuButton=document.querySelector('.menu');
+  if(menuButton && menu){
+    menuButton.addEventListener('click',function(){
+      var willOpen=menu.hasAttribute('hidden');
+      if(willOpen) menu.removeAttribute('hidden'); else menu.setAttribute('hidden','');
+      menuButton.setAttribute('aria-expanded',String(willOpen));
+    });
+    menu.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click',function(){
+        menu.setAttribute('hidden','');
+        menuButton.setAttribute('aria-expanded','false');
+      });
+    });
+  }
+})();
 </script>
 </body>
 </html>
